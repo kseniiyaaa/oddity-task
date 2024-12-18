@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Test task Kseniia Antropova">
+	<title>Oddity Test Task</title>
+	<link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<a href="#">Gmail</a>
+	<a href="#">Зображення</a>
+	<img src="img/grid.png" alt="dots menu">
+	<button class="button">Увійти</button>
+</header>
+
+<div class="main">
+	<img id="logo" src="img/google-logo.png" alt="logo">
+	<form class="search-bar" action="https://www.google.com/search" method="GET">
+		<img src="img/search.png" alt="google-search">
+		<input type="text" name="searchbar">
+		<div class="right-icons">
+			<img src="img/keyboard.png" alt="google-keyboard">
+			<img src="img/google-voice.png" alt="google-voice-search" id="voice">
+			<img src="img/camera.png" alt="google-lens">
+		</div>
+	</form>
+
+	<div class="buttons">
+		<div>
+			<button class="button" type="button">Пошук Google</button>
+			<button class="button" type="button" onclick="changeLogo()">Мені пощастить</button>
+		</div>
+		<button class="button" type="button">Мова Google: <span>English</span></button>
+	</div>
+</div>
+
+<footer>
+	<div class="footer-top-half">
+		<p>Україна</p>
+	</div>
+	<div class="footer-bottom-half">
+		<div>
+			<a href="#">Про Google</a>
+			<a href="#">Реклама</a>
+			<a href="#">Для бізнесу</a>
+			<a href="#">Як працює Пошук</a>
+		</div>
+		<div>
+			<a href="#">Конфіденційність</a>
+			<a href="#">Умови</a>
+			<a href="#">Налаштування</a>
+		</div>
+	</div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
